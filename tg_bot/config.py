@@ -1,4 +1,4 @@
-if not __name__.endswith("sample_config"):
+if not __name__.endswith("config"):
     import sys
     print("The README is there to be read. Extend this sample config to a config file, don't just rename and change "
           "values here. Doing that WILL backfire on you.\nBot quitting.", file=sys.stderr)
@@ -10,12 +10,12 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "909630906:AAHNvoaGgPwOVAKIuAqIC1oMdLBDpQicKHs"
-    OWNER_ID = "565357628" # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "cosmosboy"
+    API_KEY = "1274192290:AAG28uyrL-Xy1VEjZl4AwME068PIyczIXuE"
+    OWNER_ID = "647816498" # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = ""
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = ''  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
